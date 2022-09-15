@@ -44,5 +44,15 @@ power2 = (two**one)
 division = (one/two)
 print ("Sum",addition,'\n',"difference",subtraction,'\n',"product",multiplication,'\n',one,"**",two,power1,'\n',two,"**",one,power2,'\n',"division",division)
 
+print("Please enter the third input")
+three=int(input())
+new_addition = (addition+three)
+new_subtraction = (subtraction-three)
+new_multiplication =(multiplication*three)
+new_power1 = (power1**three)
+new_power2 = (three**power1)
+new_division = (division/three)
+print ("Sum",new_addition,'\n',"difference",new_subtraction,'\n',"product",new_multiplication,'\n',three,"**",power1,new_power1,'\n',power1,"**",three,new_power2,'\n',"division",new_division)
+
 
 
